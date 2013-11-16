@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>Curri Documentation</title>
+  <!-- JS & CSS -->
+  <link rel="stylesheet" href="assets/foundation/css/foundation.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="assets/style.css" type="text/css" media="screen, projection">
+  <script src="assets/foundation/js/vendor/jquery.js"></script>
+  <script src="assets/script.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <div class="row row-nomargin">
+    <div class="large-6 columns">
+      <a href="http://themelize.me"><img src="assets/images/doc-logo.png" alt="Themelize.Me Logo" class="doc-logo" /></a>
+    </div>  
+    <div class="large-6 columns pad-top">  
+      <h5 class="subheader text-right">Curri HTML theme / Version 2.2</h5>
+    </div>
+  </div>
+  
+  <div class="row bordered-block pad-extra">  
+    <h1 class="large-12 text-center faded massive">Documentation</h1>
+    <h4 class="large-12 text-center subheader">Thank you for purchasing our <em>Curri HTML theme</em>.<br />If you still have unanswered questions after reading the documentation please free feel to email us at <a href="mailto:info@themelize.me">info@themelize.me</a>.</h4>
+  </div>
+  
+  <div class="row">  
+    <h3 id="toc" class="alt">Table of Contents</h3>
+    <ol>
+      <li><a href="#theme-info">Theme Information</a></li>
+      <li><a href="#pages-provided">Pages Provided</a></li>
+      <li><a href="#features">Key Features</a></li>
+      <li><a href="#customisation">Customisation</a></li>
+      <li><a href="#upgrading">Upgrading</a></li>
+      <li><a href="#credits">Credits</a></li>
+      <li><a href="#bugs">Issues & bug reporting</a></li>
+      <li><a href="#stay-updated">Stay up-to-date</a></li>
+    </ol>
+  </div>
+  
+  <div class="row"> 
+    <h3 id="theme-info">Theme Information</h3>
+    <ul>
+      <li>Name: Curri</li>
+      <li>Description: Stunning retina ready Curriculum Vitae or resume template for showcasing you & your skills.</li>
+      <li>Current Version: 2.2</li> 
+      <li>Released: July 2013</li> 
+      <li>Creator: <a href="http://themelize.me">Themelize.Me</a></li>
+      <li>Bootstrap version: 3.0</li>
+    </ul>
+  </div>
+
+  <div class="row"> 
+    <h3 id="pages-provided">Pages Provided (2)</h3>
+    <ul>
+      <li>Index (index.htm)</li>
+      <li>Elements (elements.htm)</li>
+    </ul>
+  </div>
+  
+  <div class="row"> 
+    <h3 id="features">Key Features</h3>
+    <ul>
+      <li>Retina Ready!</li>
+      <li>Built on Bootstrap 3.0</li>
+      <li>Font Awesome icons 4.0.0</li>
+      <li>IcoMoon Icons</li>
+      <li>Mobile first & Fully responsive (wide, normal, narrow, mobile)</li>
+      <li>Easy to customise</li>
+      <li>Elements template to help you get started</li>
+      <li>Starter CSS files</li>
+      <li>Simple, bold, clean design</li>
+      <li>Valid HTML5</li>
+      <li>Lazy image loading</li>
+      <li>JSHint Compilant</li>
+      <li>2 preset colour skins</li>
+      <li>Google font (OpenSans)</li>
+      <li>jQuery Flexslider plugin</li>
+      <li>Slick mobile menu</li>
+      <li>One page scrolling</li>
+      <li>Experience Timeline</li>
+      <li>Custom skills icons</li>
+    </ul>
+  </div>  
+
+  <div class="row"> 
+    <h3 id="customisation">Customisation</h3>
+    <h5>1. Scrollable Sections</h5>
+    <p>All section that you which to be scrollable to require 2 things:</p>
+    <ol>
+      <li>An ID tag ie. <code>id="contact"</code></li>
+      <li>A class of "scroll-section" ie. <code>class="scroll-section"</code></li>
+    </ol>
+    <p>Then you can link to this section using normal a tags with a href of <kbd>#SECTION_ID</kbd></p>
+    ie. <code>href="#contact"</code>
+    
+    <h5 class="pad-top-large">2. Adding Custom CSS Code & Colours</h5>
+    <p>Don't like our styles & colours? Add your own!</p>
+    <p>Like all <a href="http://themelize.me">Themelize.Me</a> themes Curri offers and automatically loads a skeleton file called <kbd>custom-style.css</kbd> which should be used to override the theme structure, colours & media queries.</p>
+    <p>This file is found within the /css directory and is well commented to provide instruction.</p>
+    <p>NOTE: We highly recommend putting all your custom CSS code into this <kbd>custom-style.css</kbd> file to make future theme updates easy & simple without overwriting your own code.</p>
+    <p>For colour customisation examples see: <kbd>css/alternative-colour.css</kbd> file.</p>
+    
+    <h5 class="pad-top-large">3. Adding New Pages</h5>
+    <p>The main index.htm page is cleanly broken into sections so is easy to cut & paste the sections you order and change their ordering to create new pages.</p>
+    <p>Also see the <kbd>elements.htm</kbd> template for UI elements & CSS styles.</p>
+    
+
+    <h5 class="pad-top-large">4. Retina Images</h5>
+    <p>Curri is retina (High Definition) ready and all images provided with the theme are also offered with a retina version.
+    <p>To make your own images retina ready you just need to think double sized & appended <kbd>@2x</kbd> to the filename.
+    <p>Here's an example:</p>
+    <ul>
+      <li>Standard definition size:     <kbd>310px wide X 410px high</kbd></li>
+      <li>High definition size:         <kbd>620px wide X 820px high</kbd></li>
+      <li>Standard definition filename: <kbd>my-image.jpg</kbd></li>
+      <li>High definition filename:     <kbd>my-image@2x.jpg</kbd></li>
+    </ul>
+    <p>Place both images in the same directory and the Retinajs plugin will automatically swap in the high definition version on device which support retina display.</p> 
+    <p>NOTE: This is totally optional, if the plugin does not find a retina version of any images, the standard definition image is left.</p> 
+    <p>For full image sizing info see <kbd>img/README.txt</kbd> file.</p>
+    
+    <h5 class="pad-top-large">6. Lazy image loading</h5>
+    <p>To aid performance from Curri 2.1 you can now use the Unveil jQuery plugin to "lazy load" images when they come into view in the browser. This significantly reduces initial page loads.</p>
+    <p>To implement this you alter your img tags like so:<br /><kbd>img src="IMAGE_PLACEHOLDER_SHOWN_BEFORE_IMAGE_LOADS" data-js="unveil-auto" data-src="FULL_RETINA_IMAGE_URL" data-src-retina="FULL_RETINA_IMAGE_URL" ....</kbd> (see timeline for working example).</p>
+    <p>The theme automatically adds a "loading" graphic before an image is unveiled and removes it once it has loaded. You can customise this using the <kbd>.unveil-loading</kbd> (before loading) and <kbd>.unveil-loaded</kbd> (after loading) classes.</p>
+  </div>
+
+  <div class="row">
+    <h3 id="upgrading">Upgrading</h3>
+    <p>We regularly release new versions of themes containing bug fixes and new features, use the appropriate links below to upgrade your custom themes.</p>
+    <ul>
+      <li><a href="upgrade-2.x.htm">Upgrading from Curri 1.x to 2.x (upgrade-2.x.htm)</a></li>
+    </ul>
+  </div>  
+  
+  <div class="row">
+    <h3 id="credits">Credits</h3>
+    <ul>
+      <li>Profile picture: <a href="http://www.flickr.com/photos/50424679@N00/8520590935/">http://www.flickr.com/photos/50424679@N00/8520590935/</a></li>
+      <li>Work: <a href="http://www.isabelarodrigues.org">http://www.isabelarodrigues.org</a> (DO NOT REPRODUCE)</li>
+      <li>Timeline: <a href="http://www.flickr.com/photos/vancouverfilmschool/">http://www.flickr.com/photos/vancouverfilmschool/</a></li>
+      <li>Faces background: <a href="http://www.flickr.com/photos/50424679@N00/">http://www.flickr.com/photos/50424679@N00/</a></li>
+    </ul>
+  </div>
+  
+  <div class="row">
+    <h3 id="bugs">Bug Reporting</h3>
+    <p>If you run into issues or find a bug which is not related to Bootstrap itself then please report the bug to us at <a href="mailto:info@themelize.me">info@themelize.me</a></p>
+  </div>
+  
+  <div class="row">
+    <h3 id="stay-updated">Stay up-to-date</h3>
+    <p>Join our mailing list at <a href="http://themelize.me">http://themelize.me</a> to stay up-to-date with all our product launches & updates.</p>
+  </div>  
+  
+  <div class="row footer">
+    <a href="#top" data-js="scroll-show" class="top-link">Back to top</a>
+  </div>
+</div>
+<!-- end div .container -->
+</body>
+</html>

@@ -1,0 +1,83 @@
+/*
+ * Documentation custom style
+ */
+
+body {
+  padding: 2em 0;
+}
+
+.row {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #eee;
+}
+.row-nomargin {
+  margin-bottom: 0 !important;
+  border-bottom: none;
+}
+.row-faded {
+  background: #f7f7f7;
+}
+
+.bordered-block {
+  background: #f7f7f7;
+  border-bottom: 4px solid #eee;
+  border-top: 4px solid #eee;
+  padding: 1em;
+}
+
+.footer {
+  border-top: 4px solid #eee;
+  border-bottom: none;
+}
+
+/* branding */
+.doc-logo {
+  max-width: 300px;
+}
+
+/* Typography */
+.massive {
+  font-size: 58px;
+}
+.faded { 
+  color: #ccc;
+}
+
+ul,
+ol {
+  padding: 0.5em 2em;
+}
+p {
+  line-height: 1.4;
+}
+
+/* misc */
+.pad-top {
+  padding-top: 1em;
+}
+.pad-top-large {
+  padding-top: 2em;
+}
+.pad-extra {
+  padding: 2em;
+}
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+}
+.border-bottom-large {
+  border-bottom: 4px solid #eee;
+  margin-bottom: 1em;
+}
+
+.top-link {
+  position: fixed;
+  bottom: -30px;
+  right: 40px;
+  font-weight: bold;
+}
+.top-link.scroll-show {
+  bottom: 20px;
+}

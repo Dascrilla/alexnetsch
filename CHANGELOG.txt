@@ -1,0 +1,39 @@
+----------------------------
+CHANGELOG
+----------------------------
+
+version 2.2, 25/10/2013
+----------------------------
+- Upgrade to Font Awesome 4.0.0 (change change="icon- to class="fa fa-)
+
+version 2.1, 10/16/2013
+----------------------------
+- Added minified versions of theme-style.css & jquery.js (now loaded as default)
+- script.min.js is now loaded as default
+- Optimised all images with ImageOptim
+- Added unveil jQuery plugin for lazy image loading (significant page load reduction)
+- Showcase thumbnails now stack in 4s on mobile
+
+version 2.0, 09/30/2013
+----------------------------
+- Bootstrap 3.0 update
+- Retina.js 1.1.0 update
+- Respond & HTML5shiv updates
+
+version 1.2, 09/11/2013
+----------------------------
+- Profile picture border issue fix
+- Work slideshow initial open scroll issue fix
+- Added minified version of script.js (script.min.js)
+
+version 1.1, 07/10/2013
+----------------------------
+- jQuery 1.10.2 update
+- Made custom Javascript code jsHint compilant
+- Update to Flexslider 2.2.0
+- Improved commenting of theme-style.css
+- Replaced client logos
+
+version 1.0, 07/05/2013
+----------------------------
+- Initial release
